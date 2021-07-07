@@ -1,5 +1,5 @@
-# author:
-# date:
+# author:Layla
+# date:7/72021
 
 
 # --------------- Section 1 --------------- #
@@ -24,7 +24,16 @@
 #
 # 1 is done for you.
 
-print('The absolute value of -15 is:', abs(-15))
+print('The absolute value of -15 is:', abs(-15)) #1
+print('when you Converts 21 into its hexadecimal variable:', hex(21)) #2
+print('the id of the variable holding the hexadecimal value of 21:', id(0x15)) #3
+print('2*5:',pow(2,5)) #4
+print('rounded to the nearest integer:', round(3.75123))  #5
+pass
+print('length of my name:', len('layla')+len('jones')) #6
+
+
+
 
 
 # --------------- Section 2 --------------- #
@@ -43,9 +52,27 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+def my_name():
+    print('layla')
 
 
-# 2 | Function Definitions with Parameters
+my_name()
+
+def  animals_i_like():
+    print('raccoon')
+    print('red fox')
+    print('anura')
+animals_i_like()
+
+
+def odd_numbers():
+    print('9')
+    print('11')
+    print('7')
+
+odd_numbers()
+
+#2 | Function Definitions with Parameters
 #
 # Relevant Documentation:
 #   - https://www.w3schools.com/python/python_functions.asp
@@ -71,3 +98,21 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+def cube_number(t):
+    cube= t**3
+    print(cube)
+cube_number(23)
+
+
+def sum_of_three_num(t,r,k):
+    sum= t+r+k
+    print(sum)
+
+
+def string_dup(e):
+    dup=e*5
+    return dup
+
+
+fogboy=('%')
+print(string_dup('%'))
